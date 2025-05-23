@@ -66,7 +66,7 @@ const Partnership: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Partnership & Supporter Program</h2>
           <div className="w-20 h-1.5 bg-indigo-600 mx-auto mb-8 rounded-full"></div>
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
-            Join our partnership program to grow together and unlock exclusive benefits for you and your community.
+            Bergabunglah dengan program kemitraan kami untuk tumbuh bersama dan mendapatkan manfaat eksklusif bagi Anda dan komunitas Anda.
           </p>
         </div>
 

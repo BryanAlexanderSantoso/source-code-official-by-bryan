@@ -34,8 +34,7 @@ const Hero: React.FC = () => {
           Welcome to <span className="text-indigo-300">Kaze Serenity</span>
         </h1>
         <p className="text-xl md:text-2xl text-indigo-100 mb-10 max-w-3xl mx-auto">
-          A sanctuary for gamers, creators, and chill-seekers to connect, 
-          grow, and vibe in a friendly, supportive environment.
+          Tempat perlindungan bagi para gamer, kreator, dan pencari ketenangan untuk terhubung, berkembang, dan bergembira dalam lingkungan yang bersahabat dan suportif.
         </p>
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <a

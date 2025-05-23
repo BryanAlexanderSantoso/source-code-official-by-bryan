@@ -10,8 +10,7 @@ const Collaborations: React.FC = () => {
         "https://i.pinimg.com/736x/d0/d8/cb/d0d8cb80bdf6ddddec926e7eda3c4b9a.jpg",
       testimonial:
         "Collaborating with Kaze Serenity was an incredible experience. The community is incredibly supportive and engaging!",
-      highlight: "Exclusive Podcast",
-      subscribers: "1.2M+",
+      highlight: "Chill Podcast",
     },
     {
       name: "Wielino",
@@ -20,8 +19,7 @@ const Collaborations: React.FC = () => {
         "https://i.pinimg.com/736x/56/db/0d/56db0d4aef30da75f3cc7acb1f759d7d.jpg",
       testimonial:
         "The Kaze Serenity community brings such positive energy to every collaboration. It's always a highlight of my month!",
-      highlight: "Exclusive Podcast",
-      subscribers: "850K+",
+      highlight: "Chill Podcast",
     },
   ];
 
@@ -58,8 +56,7 @@ const Collaborations: React.FC = () => {
           <div className="relative overflow-hidden rounded-2xl shadow-lg">
             <div
               className="flex transition-transform duration-500 ease-in-out h-full"
-              style={{ transform: `translateX(-${activeIndex * 100}%)` }}
-            >
+              style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
               {collaborations.map((collab, index) => (
                 <div key={index} className="w-full flex-shrink-0">
                   <div className="md:flex bg-white rounded-2xl overflow-hidden">
@@ -73,7 +70,7 @@ const Collaborations: React.FC = () => {
                         <div className="flex items-center">
                           <Star className="text-yellow-400 w-5 h-5 mr-1" />
                           <span className="text-white text-sm">
-                            {collab.subscribers} subscribers
+                            
                           </span>
                         </div>
                       </div>
@@ -92,10 +89,8 @@ const Collaborations: React.FC = () => {
                         </blockquote>
                       </div>
                       <div className="mt-4">
-                        <a
-                          href="#"
-                          className="inline-flex items-center text-indigo-600 hover:text-indigo-800 transition-colors duration-200"
-                        >
+                        <a href="https://discord.gg/kazeindo"
+                          className="inline-flex items-center text-indigo-600 hover:text-indigo-800 transition-colors duration-200">
                           <ChevronRight className="ml-1 w-5 h-5" />
                         </a>
                       </div>
@@ -111,15 +106,13 @@ const Collaborations: React.FC = () => {
             <button
               onClick={prevSlide}
               className="bg-white/80 hover:bg-white text-indigo-600 rounded-full p-2 shadow-md transition-all duration-200 focus:outline-none"
-              aria-label="Previous collaboration"
-            >
+              aria-label="Previous collaboration">
               <ChevronLeft size={24} />
             </button>
             <button
               onClick={nextSlide}
               className="bg-white/80 hover:bg-white text-indigo-600 rounded-full p-2 shadow-md transition-all duration-200 focus:outline-none"
-              aria-label="Next collaboration"
-            >
+              aria-label="Next collaboration">
               <ChevronRight size={24} />
             </button>
           </div>

@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
               <span className="ml-2 text-xl font-bold">Kaze Serenity</span>
             </a>
             <p className="mt-2 text-gray-400 max-w-md">
-              A sanctuary for gamers, creators, and chill-seekers to connect, grow, and vibe in a friendly, supportive environment.
+              Tempat perlindungan bagi para gamer, kreator, dan pencari ketenangan untuk terhubung, berkembang, dan bergembira dalam lingkungan yang bersahabat dan suportif.
             </p>
           </div>
           

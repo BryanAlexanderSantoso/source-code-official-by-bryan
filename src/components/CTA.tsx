@@ -25,9 +25,9 @@ const CTA: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
           <Wind className="h-16 w-16 text-indigo-300 mx-auto mb-6" />
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Join the Vibe. Live the Serenity.</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Bergabunglah dengan Kami & Jalani Ketenangan.</h2>
           <p className="max-w-2xl mx-auto text-xl text-indigo-200 mb-10">
-            Be part of a growing community where friendships form, creativity flourishes, and good vibes abound.
+            Jadilah bagian dari komunitas yang berkembang di mana persahabatan terbentuk, kreativitas berkembang, dan getaran positif berlimpah.
           </p>
 
           {/* Discord-like preview card */}
@@ -42,7 +42,7 @@ const CTA: React.FC = () => {
               </div>
             </div>
             <div className="p-6 text-left">
-              <p className="text-gray-300 mb-4">A sanctuary for gamers, creators, and chill-seekers to connect, grow, and vibe in a friendly, supportive environment.</p>
+              <p className="text-gray-300 mb-4">Jadilah bagian dari komunitas yang berkembang di mana persahabatan terbentuk, kreativitas berkembang, dan getaran positif berlimpah.</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-[#4f545c] text-gray-300 px-2 py-1 rounded text-xs">gaming</span>
                 <span className="bg-[#4f545c] text-gray-300 px-2 py-1 rounded text-xs">community</span>

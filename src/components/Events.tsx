@@ -5,47 +5,44 @@ const Events: React.FC = () => {
   const giveaways = [
     {
       title: "Discord Nitro Giveaway",
-      description: "Win a month of Discord Nitro for you and a friend",
-      date: "Ends in 3 days",
+      description: "Dapatkan kesempatan untuk memenangkan Discord Nitro 1 hingga 3 bulan!",
       icon: <Gift className="h-6 w-6 text-pink-500" />,
       prize: "Discord Nitro",
       style: "bg-gradient-to-r from-pink-100 to-purple-100 border-pink-300"
     },
     {
-      title: "$50 Steam Gift Card",
-      description: "Get some new games on us with this Steam gift card",
-      date: "Ends in 5 days",
+      title: "E-Wallet Giveaway",
+      description: "Dapatkan kesempatan untuk memenangkan saldo E-Wallet!",
       icon: <Gift className="h-6 w-6 text-blue-500" />,
-      prize: "$50 Steam Card",
+      prize: "E-Wallet Balance",
       style: "bg-gradient-to-r from-blue-100 to-indigo-100 border-blue-300"
     },
     {
-      title: "Gaming Peripheral",
-      description: "Win a high-quality gaming headset for the ultimate experience",
-      date: "Ends in 1 week",
+      title: "Dan masih banyak lagi!",
+      description: "Ikuti giveaway kami untuk kesempatan memenangkan hadiah menarik lainnya!",
       icon: <Gift className="h-6 w-6 text-green-500" />,
-      prize: "Gaming Headset",
+      prize: "Join Discord info lanjut!",
       style: "bg-gradient-to-r from-green-100 to-teal-100 border-green-300"
     }
   ];
 
   const events = [
     {
-      title: "Weekly Game Tournament",
-      description: "Compete for prizes and glory in our weekly gaming tournaments",
-      date: "Every Saturday, 8PM EST",
+      title: "Game Tournament",
+      description: "Ikuti turnamen game untuk memenangkan hadiah menarik!",
+      date: "Info Lengkap Discord",
       icon: <Trophy className="h-6 w-6 text-amber-500" />
     },
     {
-      title: "Movie Night",
-      description: "Join us as we watch and discuss movies together",
-      date: "Fridays, 9PM EST",
+      title: "Night Podcast",
+      description: "Dengarkan podcast malam yang menarik dengan tamu spesial!",
+      date: "Info Lengkap Discord",
       icon: <Film className="h-6 w-6 text-indigo-500" />
     },
     {
       title: "Community Game Night",
       description: "Play party games with other members in a casual, fun environment",
-      date: "Wednesdays, 7PM EST",
+      date: "Info Lengkap Discord",
       icon: <Calendar className="h-6 w-6 text-purple-500" />
     }
   ];
@@ -70,12 +67,12 @@ const Events: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Events & Giveaways</h2>
           <div className="w-20 h-1.5 bg-indigo-600 mx-auto mb-8 rounded-full"></div>
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
-            We host regular events and generous giveaways to keep our community engaging and rewarding.
+            Kami menyelenggarakan acara rutin dan memberikan hadiah menarik untuk menjaga komunitas kami tetap menarik dan bermanfaat.
           </p>
         </div>
 
         {/* Active Giveaways */}
-        <h3 className="text-2xl font-bold text-indigo-800 mb-6">Active Giveaways</h3>
+        <h3 className="text-2xl font-bold text-indigo-800 mb-6">Giveaway</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {giveaways.map((giveaway, index) => (
             <div 
@@ -87,7 +84,6 @@ const Events: React.FC = () => {
                   {giveaway.icon}
                 </div>
                 <span className="text-sm font-medium text-gray-700 bg-white/80 px-3 py-1 rounded-full">
-                  {giveaway.date}
                 </span>
               </div>
               <h4 className="text-xl font-semibold text-gray-900 mb-2">{giveaway.title}</h4>
@@ -131,7 +127,7 @@ const Events: React.FC = () => {
 
         {/* Testimonials */}
         <div className="bg-white rounded-2xl shadow-sm p-8 mb-10">
-          <h3 className="text-2xl font-bold text-center text-indigo-800 mb-8">What Our Members Say</h3>
+          <h3 className="text-2xl font-bold text-center text-indigo-800 mb-8">Staff-Staff Kami</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="flex space-x-4">
