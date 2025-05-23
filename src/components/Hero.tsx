@@ -1,5 +1,4 @@
 import React from 'react';
-import { Wind } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -28,7 +27,6 @@ const Hero: React.FC = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center mb-6">
-          <Wind className="h-20 w-20 text-white/90" />
         </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
           Welcome to <span className="text-indigo-300">Kaze Serenity</span>

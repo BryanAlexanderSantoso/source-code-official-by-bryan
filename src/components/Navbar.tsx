@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Wind } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="#" className="flex items-center">
-              <Wind className="h-8 w-8 text-indigo-500" />
+              <img src="https://i.pinimg.com/736x/1d/25/5f/1d255f5302a9ea2702916124601dd053.jpg" alt="Kaze Serenity Logo" className="h-10 w-10" />
               <span className={`ml-2 text-xl font-bold ${isScrolled ? 'text-indigo-800' : 'text-white'}`}>
                 Kaze Serenity
               </span>

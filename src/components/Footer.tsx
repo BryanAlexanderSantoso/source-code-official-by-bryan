@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wind, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
-              <Wind className="h-8 w-8 text-indigo-400" />
+              <img src="https://i.pinimg.com/736x/1d/25/5f/1d255f5302a9ea2702916124601dd053.jpg" alt="Kaze Serenity Logo" className="h-10 w-10" />
               <span className="ml-2 text-xl font-bold">Kaze Serenity</span>
             </a>
             <p className="mt-2 text-gray-400 max-w-md">
