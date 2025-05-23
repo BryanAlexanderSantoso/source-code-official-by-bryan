@@ -30,10 +30,10 @@ const Footer: React.FC = () => {
             <div>
               <h3 className="text-lg font-semibold mb-3 text-indigo-300">Resources</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Server Rules</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">FAQs</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Privacy Policy</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Terms of Service</a></li>
+                <li><a href="https://discord.gg/j7Gtw38FVw" className="text-gray-400 hover:text-white transition-colors duration-200">Server Rules</a></li>
+                <li><a href="https://discord.gg/kazeindo" className="text-gray-400 hover:text-white transition-colors duration-200">FAQs</a></li>
+                <li><a href="https://discord.gg/kazeindo" className="text-gray-400 hover:text-white transition-colors duration-200">Privacy Policy</a></li>
+                <li><a href="https://discord.gg/kazeindo" className="text-gray-400 hover:text-white transition-colors duration-200">Terms of Service</a></li>
               </ul>
             </div>
             
@@ -41,9 +41,7 @@ const Footer: React.FC = () => {
               <h3 className="text-lg font-semibold mb-3 text-indigo-300">Connect</h3>
               <ul className="space-y-2">
                 <li><a href="https://discord.gg/kazeindo" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">Discord</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Twitter</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">Instagram</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">YouTube</a></li>
+                <li><a href="https://www.instagram.com/kazeindo_/" className="text-gray-400 hover:text-white transition-colors duration-200">Instagram</a></li>
               </ul>
             </div>
           </div>

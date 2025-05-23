@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Users, MessageSquare, Shield } from 'lucide-react';
+import { Heart, Users, MessageSquare, Shield, Wind } from 'lucide-react';
 
 const About: React.FC = () => {
   const features = [
