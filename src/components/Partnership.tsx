@@ -4,38 +4,38 @@ import { Check, Award, Users, Gift } from 'lucide-react';
 const Partnership: React.FC = () => {
   const partnerBenefits = [
     {
-      title: "Custom Role",
-      description: "Unique, colorful role that stands out in the member list",
+      title: "Role Ekslusif",
+      description: "Dapatkan peran eksklusif di server kami",
       supporter: true,
       partner: true
     },
     {
-      title: "Priority Support",
-      description: "Get your questions answered first by our mod team",
+      title: "Prioritas Dukungan",
+      description: "Dapatkan dukungan prioritas dari tim kami",
       supporter: true,
       partner: true
     },
     {
-      title: "Early Access",
-      description: "Be the first to join new events and exclusive content",
+      title: "Akses Awal ke Event",
+      description: "Dapatkan akses awal ke event kami",
       supporter: true,
       partner: true
     },
     {
-      title: "Monthly Shoutouts",
-      description: "Get featured in our announcements channel",
+      title: "Promosi Server",
+      description: "Dapatkan promosi untuk server Anda di saluran kami",
       supporter: false,
       partner: true
     },
     {
-      title: "Custom Channel",
-      description: "Get your own text channel for your community",
+      title: "Akses Soundboard",
+      description: "Gunakan soundboard eksklusif di server kami",
       supporter: false,
       partner: true
     },
     {
-      title: "Giveaway Collaborations",
-      description: "Co-host giveaways with our community",
+      title: "Giveaway Kolaborasi",
+      description: "Buat giveaway kolaborasi bersama kami",
       supporter: false,
       partner: true
     }
@@ -44,18 +44,18 @@ const Partnership: React.FC = () => {
   const steps = [
     {
       icon: <Users className="h-6 w-6 text-indigo-500" />,
-      title: "Add Our Invite",
-      description: "Place our server invite link in your Discord server, website, or social media bio"
+      title: "Taruh link undangan server kami",
+      description: "Tempatkan tautan undangan server kami di server Discord, situs web, atau bio media sosial Anda"
     },
     {
       icon: <Award className="h-6 w-6 text-indigo-500" />,
-      title: "Submit Proof",
-      description: "Send screenshots of your promotion to our partnership manager"
+      title: "Kirim Tangkapan Layar",
+      description: "Kirim tangkapan layar promosi Anda ke staff kemitraan kami"
     },
     {
       icon: <Gift className="h-6 w-6 text-indigo-500" />,
-      title: "Enjoy Benefits",
-      description: "Receive your partner role and unlock exclusive perks"
+      title: "Nikmati Benefits",
+      description: "Terima peran mitra Anda dan buka keuntungan eksklusif"
     }
   ];
 
@@ -97,7 +97,7 @@ const Partnership: React.FC = () => {
 
         {/* Benefits Comparison */}
         <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 mb-10">
-          <h3 className="text-2xl font-bold text-center text-indigo-800 mb-8">Membership Benefits</h3>
+          <h3 className="text-2xl font-bold text-center text-indigo-800 mb-8">Benefit yang didapat antara Supporter dan Partner</h3>
           
           <div className="grid grid-cols-3 gap-4 mb-6">
             <div className="col-span-1"></div>
@@ -149,7 +149,7 @@ const Partnership: React.FC = () => {
             href="#" 
             className="inline-block bg-indigo-600 text-white hover:bg-indigo-700 px-6 py-3 rounded-lg transition-colors duration-200"
           >
-            Apply for Partnership
+            Ajukan Permohonan Kerjasama
           </a>
         </div>
       </div>

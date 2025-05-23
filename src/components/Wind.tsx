@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Wind = ({ className = "", size = 24, ...props }) => {
   return (
     <svg

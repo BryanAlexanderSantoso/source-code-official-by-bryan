@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
             &copy; {new Date().getFullYear()} Kaze Serenity. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm mt-4 md:mt-0 flex items-center">
-            Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> for the community
+            Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> by Kaze Serenity Expert Developer Team
           </p>
         </div>
       </div>

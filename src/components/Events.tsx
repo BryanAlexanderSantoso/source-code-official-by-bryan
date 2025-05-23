@@ -49,13 +49,13 @@ const Events: React.FC = () => {
 
   const testimonials = [
     {
-      quote: "I won a Discord Nitro last month and the process was super smooth! Love this community!",
-      name: "SkyRunner",
+      quote: "Kami membangun komunitas yang positif dan suportif di sini. Sangat menyenangkan!",
+      name: "Near",
       avatar: "https://images.pexels.com/photos/2726111/pexels-photo-2726111.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
-      quote: "The game tournaments are the highlight of my week. So well organized and fun!",
-      name: "CrystalGamer",
+      quote: "Kaze Serenity adalah tempat yang sempurna untuk bersantai dan bersenang-senang apalagi main game!.",
+      name: "ERr-Sama",
       avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300"
     }
   ];
@@ -150,7 +150,7 @@ const Events: React.FC = () => {
         {/* CTA */}
         <div className="text-center">
           <p className="text-lg text-gray-700 mb-6">
-            Don't miss out on these exciting events and giveaways!
+            Jangan lewatkan acara dan hadiah menarik ini!
           </p>
           <a 
             href="https://discord.gg/kazeindo" 

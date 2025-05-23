@@ -5,23 +5,23 @@ const About: React.FC = () => {
   const features = [
     {
       icon: <Heart className="h-8 w-8 text-pink-500" />,
-      title: 'Welcoming Community',
-      description: 'A friendly, inclusive space where everyone feels valued and respected.'
+      title: 'Komunitas Positif',
+      description: 'Ruang yang ramah dan inklusif di mana setiap orang merasa dihargai dan dihormati.'
     },
     {
       icon: <Users className="h-8 w-8 text-blue-500" />,
-      title: 'Meaningful Connections',
-      description: 'Form lasting friendships with like-minded individuals who share your interests.'
+      title: 'Koneksi yang Bermakna',
+      description: 'Jalinlah persahabatan yang baik dengan orang-orang yang berpikiran sama dan memiliki minat yang sama.'
     },
     {
       icon: <MessageSquare className="h-8 w-8 text-green-500" />,
-      title: 'Engaging Conversations',
-      description: 'Participate in lively discussions on gaming, art, music, and more.'
+      title: 'Percakapan yang Menarik',
+      description: 'Berpartisipasilah dalam diskusi menarik tentang permainan, seni, musik, dan banyak lagi.'
     },
     {
       icon: <Shield className="h-8 w-8 text-purple-500" />,
-      title: 'Safe Environment',
-      description: 'Active moderation ensures a positive experience for all members.'
+      title: 'Lingkungan yang Aman',
+      description: 'Moderasi & Staff aktif memastikan pengalaman positif bagi semua anggota.'
     }
   ];
 
@@ -29,11 +29,10 @@ const About: React.FC = () => {
     <section id="about" className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Kaze Serenity</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Tentang Kaze Serenity</h2>
           <div className="w-20 h-1.5 bg-indigo-600 mx-auto mb-8 rounded-full"></div>
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
-            Kaze Serenity is more than a server – it's a sanctuary for gamers, creators, and chill-seekers to connect, 
-            grow, and vibe in a friendly, supportive environment. Our community values kindness, creativity, and genuine connections.
+            Kaze Serenity lebih dari sekadar server – ini adalah tempat perlindungan bagi para gamer, kreator, dan pencari ketenangan untuk terhubung, tumbuh, dan bersemangat dalam lingkungan yang ramah dan suportif. Komunitas kami menghargai kebaikan, kreativitas, dan hubungan yang tulus.
           </p>
         </div>
 
@@ -55,11 +54,9 @@ const About: React.FC = () => {
         <div className="mt-16 bg-gradient-to-r from-indigo-100 to-purple-100 rounded-2xl p-8 md:p-10 shadow-sm">
           <div className="md:flex items-center">
             <div className="md:w-2/3 mb-6 md:mb-0 md:pr-8">
-              <h3 className="text-2xl font-bold text-indigo-800 mb-4">Our Mission</h3>
+              <h3 className="text-2xl font-bold text-indigo-800 mb-4">Misi Kami</h3>
               <p className="text-indigo-900">
-                To create a vibrant online space where members feel valued, supported, and inspired. 
-                We strive to foster genuine connections, celebrate creativity, and provide a positive 
-                escape from the stresses of everyday life.
+                Untuk menciptakan ruang daring yang dinamis tempat para anggota merasa dihargai, didukung, dan terinspirasi. Kami berusaha untuk membina hubungan yang tulus, merayakan kreativitas, dan memberikan pelarian positif dari tekanan kehidupan sehari-hari.
               </p>
             </div>
             <div className="md:w-1/3 flex justify-center">

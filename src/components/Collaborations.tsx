@@ -43,12 +43,11 @@ const Collaborations: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Exclusive Collaborations
+            Kolaborasi Eksklusif
           </h2>
           <div className="w-20 h-1.5 bg-indigo-600 mx-auto mb-8 rounded-full"></div>
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
-            We've partnered with some of the most exciting content creators to
-            bring unique experiences to our community.
+            Kami telah bermitra dengan beberapa pembuat konten paling menarik untuk menghadirkan pengalaman unik bagi komunitas kami.
           </p>
         </div>
 
@@ -56,11 +55,13 @@ const Collaborations: React.FC = () => {
           <div className="relative overflow-hidden rounded-2xl shadow-lg">
             <div
               className="flex transition-transform duration-500 ease-in-out h-full"
-              style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
+              style={{ transform: `translateX(-${activeIndex * 100}%)` }}
+            >
               {collaborations.map((collab, index) => (
                 <div key={index} className="w-full flex-shrink-0">
                   <div className="md:flex bg-white rounded-2xl overflow-hidden">
-                    <div className="md:w-2/5 relative h-64 md:h-auto">
+                    {/* Perubahan di sini: Menggunakan tinggi yang lebih spesifik atau menyesuaikan dengan kebutuhan konten */}
+                    <div className="md:w-2/5 relative h-64 **md:h-[450px]**">
                       <img
                         src={collab.image}
                         alt={collab.name}
@@ -70,7 +71,7 @@ const Collaborations: React.FC = () => {
                         <div className="flex items-center">
                           <Star className="text-yellow-400 w-5 h-5 mr-1" />
                           <span className="text-white text-sm">
-                            
+                            {/* You can add a rating or other info here if needed */}
                           </span>
                         </div>
                       </div>
@@ -89,9 +90,11 @@ const Collaborations: React.FC = () => {
                         </blockquote>
                       </div>
                       <div className="mt-4">
-                        <a href="https://discord.gg/kazeindo"
-                          className="inline-flex items-center text-indigo-600 hover:text-indigo-800 transition-colors duration-200">
-                          <ChevronRight className="ml-1 w-5 h-5" />
+                        <a
+                          href="https://discord.gg/kazeindo"
+                          className="inline-flex items-center text-indigo-600 hover:text-indigo-800 transition-colors duration-200"
+                        >
+                          {/* <ChevronRight className="ml-1 w-5 h-5" /> */}
                         </a>
                       </div>
                     </div>
@@ -106,13 +109,15 @@ const Collaborations: React.FC = () => {
             <button
               onClick={prevSlide}
               className="bg-white/80 hover:bg-white text-indigo-600 rounded-full p-2 shadow-md transition-all duration-200 focus:outline-none"
-              aria-label="Previous collaboration">
+              aria-label="Previous collaboration"
+            >
               <ChevronLeft size={24} />
             </button>
             <button
               onClick={nextSlide}
               className="bg-white/80 hover:bg-white text-indigo-600 rounded-full p-2 shadow-md transition-all duration-200 focus:outline-none"
-              aria-label="Next collaboration">
+              aria-label="Next collaboration"
+            >
               <ChevronRight size={24} />
             </button>
           </div>
@@ -123,8 +128,9 @@ const Collaborations: React.FC = () => {
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-200 ${index === activeIndex ? "bg-indigo-600 w-6" : "bg-indigo-300"
-                  }`}
+                className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                  index === activeIndex ? "bg-indigo-600 w-6" : "bg-indigo-300"
+                }`}
                 aria-label={`Go to slide ${index + 1}`}
               />
             ))}
@@ -133,13 +139,13 @@ const Collaborations: React.FC = () => {
 
         <div className="mt-16 text-center">
           <p className="text-lg text-gray-700 mb-6">
-            Interested in collaborating with Kaze Serenity?
+            Tertarik berkolaborasi dengan Kaze Serenity?
           </p>
           <a
             href="https://discord.gg/kazeindo"
             className="inline-block bg-indigo-600 text-white hover:bg-indigo-700 px-6 py-3 rounded-lg transition-colors duration-200"
           >
-            Apply for Collaboration
+            Ajukan Permohonan Kerjasama
           </a>
         </div>
       </div>
