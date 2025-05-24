@@ -7,25 +7,27 @@ import Partnership from './components/Partnership';
 import Events from './components/Events';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+import { ThemeProvider } from './context/ThemeContext';
 import './styles/animations.css';
 
 function App() {
   useEffect(() => {
-    // Update document title
     document.title = 'Kaze Serenity - Join Our Discord Community';
   }, []);
 
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      <Hero />
-      <About />
-      <Collaborations />
-      <Partnership />
-      <Events />
-      <CTA />
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div className="min-h-screen dark:bg-gray-900 transition-colors duration-200">
+        <Navbar />
+        <Hero />
+        <About />
+        <Collaborations />
+        <Partnership />
+        <Events />
+        <CTA />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
 
