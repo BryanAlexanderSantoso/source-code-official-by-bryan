@@ -26,12 +26,12 @@ const About: React.FC = () => {
   ];
 
   return (
-    <section id="about" className="py-16 md:py-24 bg-white">
+    <section id="about" className="py-16 md:py-24 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Tentang Kaze Serenity</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Tentang Kaze Serenity</h2>
           <div className="w-20 h-1.5 bg-indigo-600 mx-auto mb-8 rounded-full"></div>
-          <p className="max-w-3xl mx-auto text-lg text-gray-600">
+          <p className="max-w-3xl mx-auto text-lg text-gray-600 dark:text-gray-300">
             Kaze Serenity lebih dari sekadar server – ini adalah tempat perlindungan bagi para gamer, kreator, dan pencari ketenangan untuk terhubung, tumbuh, dan bersemangat dalam lingkungan yang ramah dan suportif. Komunitas kami menghargai kebaikan, kreativitas, dan hubungan yang tulus.
           </p>
         </div>
@@ -40,22 +40,22 @@ const About: React.FC = () => {
           {features.map((feature, index) => (
             <div 
               key={index} 
-              className="bg-indigo-50 rounded-xl p-6 transition-all duration-300 hover:shadow-md hover:bg-indigo-100"
+              className="bg-indigo-50 dark:bg-gray-800 rounded-xl p-6 transition-all duration-300 hover:shadow-md hover:bg-indigo-100 dark:hover:bg-gray-700"
             >
-              <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto shadow-sm">
+              <div className="bg-white dark:bg-gray-700 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto shadow-sm">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2 text-center">{feature.title}</h3>
-              <p className="text-gray-600 text-center">{feature.description}</p>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">{feature.title}</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-center">{feature.description}</p>
             </div>
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-indigo-100 to-purple-100 rounded-2xl p-8 md:p-10 shadow-sm">
+        <div className="mt-16 bg-gradient-to-r from-indigo-100 to-purple-100 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-8 md:p-10 shadow-sm">
           <div className="md:flex items-center">
             <div className="md:w-2/3 mb-6 md:mb-0 md:pr-8">
-              <h3 className="text-2xl font-bold text-indigo-800 mb-4">Misi Kami</h3>
-              <p className="text-indigo-900">
+              <h3 className="text-2xl font-bold text-indigo-800 dark:text-indigo-300 mb-4">Misi Kami</h3>
+              <p className="text-indigo-900 dark:text-gray-300">
                 Untuk menciptakan ruang daring yang dinamis tempat para anggota merasa dihargai, didukung, dan terinspirasi. Kami berusaha untuk membina hubungan yang tulus, merayakan kreativitas, dan memberikan pelarian positif dari tekanan kehidupan sehari-hari.
               </p>
             </div>
