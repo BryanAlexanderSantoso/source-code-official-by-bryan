@@ -1,6 +1,6 @@
 import React from 'react';
 import { Moon, Sun } from 'lucide-react';
-import { useTheme } from '../hooks/useTheme';
+import { useTheme } from '../context/ThemeContext';
 
 const ThemeToggle: React.FC = () => {
   const { isDark, toggleTheme } = useTheme();
@@ -10,7 +10,7 @@ const ThemeToggle: React.FC = () => {
       onClick={toggleTheme}
       className={`p-2 rounded-full transition-colors duration-200 ${
         isDark 
-          ? 'bg-gray-800 text-yellow-400 hover:bg-gray-700' 
+          ? 'bg-gray-700 text-yellow-400 hover:bg-gray-600' 
           : 'bg-indigo-100 text-indigo-600 hover:bg-indigo-200'
       }`}
       aria-label="Toggle theme"
